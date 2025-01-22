@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos II</title>
+    <!--Link para add icones nas informações de contato-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="menu">
+            <div class="logo">
+                <img class="icone" src="fotos/icone folha.png">
+                <h2>Eco<span>Clean</span></h2>
+            </div>
+            <!---Botão de menu para dispositivos móveis-->
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#serviços">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><button class="btn-login">Login</button></li>
+                </ul>
+            </nav>
+        </header>
+    <div class="inicio" id="inicio">
+        <div class="container-esquerdo">
+            <h2>O que é sustentabilidade?</h2>
+            <p> Sustentabilidade é a prática de atender às necessidades do presente sem comprometer a capacidade das 
+                futuras gerações de atenderem às suas, equilibrando fatores ambientais, sociais e econômicos.</p>
+        </div>
+        <div class="container-direito">
+            <h3><a href="#agendamento">Agende sua limpeza hoje!</a></h3>
+        </div>
+    </div>
+    <div class="sobre" id="sobre">
+        <h2 class="sobre">Sobre</h2>
+        <p> A EcoClean  oferece soluções de limpeza sustentável para residências e escritórios, utilizando produtos 
+            biodegradáveis e técnicas de baixo impacto ambiental. Nosso objetivo é promover ambientes mais limpos e 
+            saudáveis, enquanto contribuímos para a preservação do planeta. Escolha a EcoClean e faça parte da mudança!</p>
+    </div>
+    <div class="serviços" id="serviços">
+        <h2>Serviços</h2>
+        <div class="opções">
+            <div class="serviço1">
+                <img src="fotos/serviço1.png" alt="Limpeza com produtos biodegradáveis.">
+                <p>Limpeza com produtos biodegradáveis.</p>
+            </div>
+            <div class="serviço2">
+                <img src="fotos/serviço2.png" alt="Consultoria para práticas de limpeza ambientalmente responsáveis.">
+                <p>Consultoria para práticas de limpeza ambientalmente responsáveis.</p>
+            </div>
+            <div class="serviço3">
+                <img src="fotos/serviço3.png" alt="Serviços de dedetização para eliminar pragas de forma ecológica.">
+                <p>Serviços de dedetização para eliminar pragas de forma ecológica.</p>
+            </div>
+        </div>
+    </div>
+    <div class="agendamento" id="agendamento">
+        <h1>Agende sua limpeza</h1>
+        <form>
+            <div class="formulario">
+                <label for="nome">Nome</label>
+                <input id="nome" type="text" placeholder="Nome" required>
+            </div>
+            <div class="formulario">
+                <label for="contato">Contato</label>
+                <input id="contato" type="text" placeholder="contato" required>
+            </div>
+            <div class="formulario">
+                <label for="tipodeserviço">Tipo de serviço</label> 
+                <select id="tipodeserviço" name="tipodeserviço" required>
+                    <option value="" disabled selected>Selecione uma opção</option>
+                    <option value="Limpeza com produtos biodegradáveis.">Limpeza com produtos biodegradáveis.</option>
+                    <option value="Consultoria para práticas de limpeza ambientalmente responsáveis.">Consultoria para práticas de limpeza ambientalmente responsáveis.</option>
+                    <option value="Serviços de dedetização para eliminar pragas de forma ecológica.">Serviços de dedetização para eliminar pragas de forma ecológica.</option>
+                </select>
+            </div>
+            <div class="formulario">
+                <label for="dataehora">Data e hora</label>
+                <input id=dataehora type="datetime-local" placeholder="Data e hora" required>
+            </div>
+            <button type="submit" class="btn">Agendar</button>
+        </form>
+    </div>
+</body>
+<footer>
+    <div class="contatos" id="contato">
+        <h3 class="title">Informações de contato</h3>
+                <ul>
+                    <li>
+                        <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <span class="text">+55 (31)912345678</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                        <span class="text">ecoclean@gmail.com</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        <span class="text">Itabira, Minas Gerais, Brasil</span>
+                    </li>
+                </ul>
+    </div>
+</footer>
+</html>
