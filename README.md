@@ -1,2 +1,2 @@
-# Projetos-II
-integrantes: Ana Laura, Breno, Daniele, Gabriel, Michelle
+# Projetos-II (não responsivo)
+integrantes: Ana Laura, Breno, Gabriel
