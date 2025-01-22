@@ -1,2 +1,2 @@
-# Projetos-II (não responsivo)
+# Projetos-II
 integrantes: Ana Laura, Breno, Gabriel
